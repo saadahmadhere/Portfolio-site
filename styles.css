@@ -3,7 +3,8 @@
 /* primary color: #91B2C7 */
 
 :root{
-    --main-color:#91B2C7
+    --main-color:#91B2C7;
+    --gray-color:#838A8E ;
 }
 
 body{
@@ -82,3 +83,18 @@ hr{
     font-weight: bold;
 }
 
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--gray-color);
+}
