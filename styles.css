@@ -30,16 +30,18 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    
 }
 
 .link-primary{
     background: var(--main-color);
     color: white;
+    border-radius: 0.5rem;
 }
 
 .link-secondary{
     border: solid 1px var(--main-color);
+    border-radius: 0.5rem;
 
 }
 
@@ -54,3 +56,29 @@ hr{
     display: inline;
     padding: 0 1rem;
 }
+
+/* navigation  */
+
+.navigation{
+    background-color: var(--main-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation .active{
+    font-weight: bold;
+}
+
