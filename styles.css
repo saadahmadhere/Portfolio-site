@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-
+    margin: 0;
 }
 
 hr{
@@ -101,6 +101,7 @@ hr{
 
 .hero .hero-heading{
     color: var(--gray-color);
+    text-align: center;
 }
 
 
@@ -117,3 +118,22 @@ hr{
 .ow{
     background-color: var(--off-white);
 }
+
+/* Footer */
+
+.footer{
+    background-color: var(--main-color);
+    padding: 2rem;
+    text-align:center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer .link{
+    color: white
+}
+
+.footer ul{
+    padding-inline-start: 0rem;
+}
+
