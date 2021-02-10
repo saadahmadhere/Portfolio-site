@@ -5,6 +5,8 @@
 :root{
     --main-color:#91B2C7;
     --gray-color:#838A8E ;
+    --off-white:#F3F4F6;
+
 }
 
 body{
@@ -15,6 +17,8 @@ body{
 hr{
     margin: 2rem 0;
 }
+
+   /*    containers */
 
 .container{
    padding: 0 1rem;
@@ -97,4 +101,19 @@ hr{
 
 .hero .hero-heading{
     color: var(--gray-color);
+}
+
+
+/* Sections */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
