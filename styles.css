@@ -47,6 +47,7 @@ hr{
 .link-secondary{
     border: solid 1px var(--main-color);
     border-radius: 0.5rem;
+    color: var(--main-color);
 
 }
 
@@ -85,7 +86,9 @@ hr{
 
 .navigation .active{
     font-weight: bold;
-}
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    }
 
 /* header */
 
@@ -102,18 +105,22 @@ hr{
 .hero .hero-heading{
     color: var(--gray-color);
     text-align: center;
+    font-size: 3rem;
 }
 
-
+.hero .hero-heading .cut{
+    color: var(--main-color);
+}
 /* Sections */
 
 .section{
     padding: 2rem;
-}
-
-.section h1{
     text-align: center;
 }
+
+/* .section h1{
+    text-align: center;
+} */
 
 .ow{
     background-color: var(--off-white);
@@ -137,3 +144,7 @@ hr{
     padding-inline-start: 0rem;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: larger;
+}
