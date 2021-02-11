@@ -148,3 +148,15 @@ hr{
     font-weight: bold;
     font-size: larger;
 }
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+
+.fa-linkedin:hover{
+    color: #2867B2;
+}
+
+.fa-github:hover{
+    color: #333;
+}
