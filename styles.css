@@ -35,6 +35,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    display: inline-block;
     
 }
 
@@ -42,13 +43,14 @@ hr{
     background: var(--main-color);
     color: white;
     border-radius: 0.5rem;
+    margin: 0.5rem;
 }
 
 .link-secondary{
     border: solid 1px var(--main-color);
     border-radius: 0.5rem;
     color: var(--main-color);
-
+    margin: 0.5rem;
 }
 
 
