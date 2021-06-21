@@ -7,7 +7,7 @@
     --gray-color:#838A8E ;
     --off-white:#F3F4F6;
     --blog-heading: #657c8b;
-
+    --hover-color: #81bde6;
 }
 
 body{
@@ -23,7 +23,7 @@ hr{
     
 }
 
-   /*    containers */
+/* containers */
 
 .container{
    padding: 0 1rem;
@@ -58,6 +58,18 @@ hr{
     margin: 0.5rem;
 }
 
+.link-primary:hover{
+    border: solid 1px var(--main-color);
+    border-radius: 0.5rem;
+    color: var(--main-color);
+    background: white;
+}
+
+.link-secondary:hover{
+    background: var(--main-color);
+    color: white;
+    border-radius: 0.5rem;
+}
 
 /* lists */
 
