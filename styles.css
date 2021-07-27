@@ -23,6 +23,11 @@ hr{
     
 }
 
+i{
+    font-size: 80px;
+    margin: 1rem 1rem auto auto;
+}
+
 /* containers */
 
 .container{
