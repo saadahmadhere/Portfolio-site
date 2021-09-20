@@ -221,3 +221,17 @@ small{
 .project-link-primary{
     margin: 0 ;
 }
+
+
+/*Media Query*/
+
+
+@media screen and (max-width: 600px) {
+   .technology{
+       display: flex;
+       flex-direction: column;
+   }
+   .technology i{
+       margin: 0.5rem auto;
+   }
+    }
